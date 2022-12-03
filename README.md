@@ -1,3 +1,6 @@
+# macd
+Moving average convergence divergence indicator 
+ I am doing change
 
 * MACD
     - MACD = short term exponential moving average - long term exponential moving average
