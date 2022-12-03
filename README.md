@@ -1,2 +1,2 @@
 # macd
-Moving average convergence divergence indicator 
+Moving average convergence divergence indicator || Arun's Indicator
