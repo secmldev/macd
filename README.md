@@ -11,7 +11,9 @@ Moving average convergence/divergence is a trend-following momentum indicator th
 
 ## MACD Formula
 
+~~~
 MACD=12-Period EMA − 26-Period EMA
+~~~
 
 ## Trading signals from MACD
 
