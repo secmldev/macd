@@ -12,3 +12,11 @@ Moving average convergence/divergence is a trend-following momentum indicator th
 ## MACD Formula
 
 MACD=12-Period EMA − 26-Period EMA
+
+## Trading signals from MACD
+
+* MACD crossing above zero is considered bullish, while crossing below zero is bearish. Secondly, when MACD turns up from below zero it is considered bullish. When it turns down from above zero it is considered bearish.
+* When the MACD line crosses from below to above the signal line, the indicator is considered bullish. The further below the zero line the stronger the signal.
+* When the MACD line crosses from above to below the signal line, the indicator is considered bearish. The further above the zero line the stronger the signal.
+* During trading ranges the MACD will whipsaw, with the fast line crossing back and forth across the signal line. Users of the MACD generally avoid trading in this situation or close positions to reduce volatility within the portfolio.
+* Divergence between the MACD and the price action is a stronger signal when it confirms the crossover signals.
