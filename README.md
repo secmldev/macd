@@ -8,7 +8,7 @@
     - The signal line is an exponential average of MACD levels, not of the price of the investment. 
     - Signal lines are usually created employing 3-day to 9-day exponential averages of MACD lines.
     - The shorter the average the more sensitive will be the signal line.
-* Buy and Cell signal
+* Buy and Sell signal
     - Changes in MACD direction (from down to up and vice versa) and crossing of MACD lines above and below 0 carry significance.
     - Crosses of MACD from below to above its signal line and from above to below its signal line carry additional significance of their own.
     - As a general rule, crossing of MACD from below to above its signal line may be taken as confirmation of buy signals orignally indicated when changes in direction have taken places in MACD from down to up.
