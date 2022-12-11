@@ -1,4 +1,4 @@
-** MACD 
+* MACD
     - MACD = short term exponential moving average - long term exponential moving average
     - When market trends are improving, short term averages will rise more quickly than long term averages. MACD line turn up
     - When market trands are losing strength, shorter term averages will tend to flatten, ultimately falling below longer term averages if declines continue. MACD line fall below 0
