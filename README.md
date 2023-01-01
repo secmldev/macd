@@ -15,8 +15,8 @@ Moving average convergence divergence indicator
     - Weaking trends are reflected in changes of direction of MACD reading, but clear trend reversals are not usually considered as confirmed until other indications, which will be discussed, take place.
     - During the course of price movement, short term moving averages will move apart (diverge) and move together (converge) with longer term moving average- hence, the indicator name "moving average convergence-divergence"
 
-* Signal line
-    - The signal line is an exponential average of MACD levels, not of the price of the investment. 
+* Signal Line
+    - The signal line is an 'exponential average' of MACD levels, not of the price of the investment. 
     - Signal lines are usually created employing 3-day to 9-day exponential averages of MACD lines.
     - The shorter the average the more sensitive will be the signal line.
 * Buy and Sell signal
