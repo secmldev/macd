@@ -1,0 +1,10 @@
+###Logic (Develop methods for these task)
+
+-Get price data (adjusted closing price)
+-calculate STMA, LTMA, MACD
+-Get buy and sell signals
+-Signal line
+
+-The signal line is an exponential average of MACD levels, not of the price of the investment.
+-Signal lines are usually created employing 3-day to 9-day exponential averages of MACD lines.
+-The shorter the average the more sensitive will be the signal line.
