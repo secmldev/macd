@@ -44,3 +44,6 @@ def get_price_yahoo(symbol, data_source, start_date = "1/1/2010", end_date = "1/
     print('stock name', symbol)
     return data
     
+
+def get_price_database():
+	pass
