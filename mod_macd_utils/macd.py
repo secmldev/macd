@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from mod_my_utils.read_write_data import *
+
 
 def get_macd_signal_line(data, short_window = 20, long_window = 50, signal_window = 12):
     """
@@ -15,6 +17,7 @@ def get_macd_signal_line(data, short_window = 20, long_window = 50, signal_windo
     Data frame with price, SMA, LMA, MACD, signal_line
     SMA: short moving average
     LMA: long moving average
+    MACD: Moving average convergance divergence values
     MACD: SMA - LMA
     signal_line: moving average of MACD
     """
@@ -35,6 +38,11 @@ def get_signal_macd_crossover(macd_signal_line, long_window):
     -------------------------
     Input: 
     SMA, LMA, MACD, signal_line
+    SMA: short moving average
+    LMA: long moving average
+    MACD: Moving average convergance divergence values
+    MACD: SMA - LMA
+    signal_line: moving average of MACD
     output: Trading signal from cross over of long and short moving average
     Buy Signal = 1, Sell Signal = -1, Do nothing = 0
     """
@@ -97,6 +105,17 @@ def plot_macd_buy_sell(macd_signal_line, signals, symbol = 'HDFC'):
     plt.show()
     
     
+def macd_automated(folder_path, stock_name, index_col, short_window, long_window, signal_window):
+    data = get_price_csv(folder_name=folder_path,symbol=stock_name, index_col=index_col)
+    data = data[["Adj. Close"]].copy()
+    data.columns = ["price"]
+    macd_data = get_macd_signal_line(data, short_window, long_window, signal_window)
+    macd_signals_from_mcad = get_signal_macd_crossover(macd_data, long_window)
+    plot_macd_buy_sell(macd_data, macd_signals_from_mcad, symbol = stock_name)
+    
+def macd_automated_multiple_stocks(symbols, folder_path, index_col, short_window, long_window, signal_window):
+    for stock_name in symbols:
+        macd_automated(folder_path, stock_name, index_col, short_window, long_window, signal_window)
     
     
 if __name__ == '__main__':
